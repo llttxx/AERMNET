@@ -1,7 +1,7 @@
 
 # AERMNet: Attention-enhanced relational memory network for medical image report generation
 
-## Environment Requirements:
+## Environment Requirements
 
 * `python==3.7`<br>  
 * `pytorch==1.1.0`<br>
@@ -31,7 +31,7 @@ Run python train_AERMNet.py using the following arguments:<br>
 |--decoder_dim|Number of decoder layers|
 |--alpha_c|Regularization parameters|
 
-<br>Run `train_AERMNet.py` to train a model on the IU X-Ray data and the MIMIC-CXR data <br> 
+Run `train_AERMNet.py` to train a model on the IU X-Ray data and the MIMIC-CXR data <br> 
 
 ## Test
 Run `test_AERMNet.py` to test AERMNet model on the IU X-Ray data and the MIMIC-CXR data. <br> 
