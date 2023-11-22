@@ -29,8 +29,9 @@ Run python train_AERMNet.py using the following arguments:<br>
 |--data_folder_new|Folder path where checkpoint files are saved|
 |--lr|learning rate|
 |--decoder_dim|Number of decoder layers|
-|--alpha_c|Regularization parameters||
-Run `train_AERMNet.py` to train a model on the IU X-Ray data and the MIMIC-CXR data <br> 
+|--alpha_c|Regularization parameters|
+
+<br>Run `train_AERMNet.py` to train a model on the IU X-Ray data and the MIMIC-CXR data <br> 
 
 ## Test
 Run `test_AERMNet.py` to test AERMNet model on the IU X-Ray data and the MIMIC-CXR data. <br> 
